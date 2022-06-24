@@ -17,377 +17,359 @@ class DatabaseSeeder extends Seeder
         // Category::create([
         //     'name' => 'Mountain',
         //     'slug' => 'mountain',
-        //     'descripsi' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. non enim nulla sed non enim nulla sed non enim nulla sed non enim nulla sed.'
         // ]);
 
         // Category::create([
-        //     'name' => 'Temple',
-        //     'slug' => 'temple',
-        //     'descripsi' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. non enim nulla sed non enim nulla sed non enim nulla sed non enim nulla sed.'
+        //     'name' => 'Waterfall',
+        //     'slug' => 'waterfall',
         // ]);
 
         // Category::create([
         //     'name' => 'Beach',
         //     'slug' => 'beach',
-        //     'descripsi' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. non enim nulla sed non enim nulla sed non enim nulla sed non enim nulla sed.'
         // ]);
 
         // Category::create([
-        //     'name' => 'Rice Terrace',
-        //     'slug' => 'rice-terrace',
-        //     'deskripsi' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, nullam purus massa urna felis, diam convallis. Praesent neque sed fermentum, in donec ut sodales vel sociis. Sagittis mi nec aenean tempor ornare non ultrices enim. Ornare venenatis, nulla enim, quam egestas bibendum. Nulla fermentum leo dolor pharetra turpis pellentesque convallis est. Ultrices consequat eget eget non enim nulla sed. non enim nulla sed non enim nulla sed non enim nulla sed non enim nulla sed.'
+        //     'name' => 'Aurora',
+        //     'slug' => 'aurora',
+        // ]);
+
+        // Category::create([
+        //     'name' => 'Grand Canyon',
+        //     'slug' => 'grand-canyon',
+        // ]);
+
+        // Category::create([
+        //     'name' => 'Hotel & Villa',
+        //     'slug' => 'hotel&villa',
+        // ]);
+
+        // Category::create([
+        //     'name' => 'Other',
+        //     'slug' => 'other',
         // ]);
 
 
 
-        // CATEGORY MOUNTAIN (8)
+        // CATEGORY MOUNTAIN
         // Destination::create([
-        //     'name' => 'Bromo',
-        //     'slug' => 'bromo',
-        //     'fakta' => 'One of the volcanoes that is still active',
-        //     'review' => '4.6',
-        //     'harga' => '140',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Jawa Timur',
+        //     'name' => 'Bromo Mountain',
+        //     'slug' => 'bromo-mountain',
+        //     'review' => '4.7',
+        //     'harga' => '205',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Indonesia',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Semeru',
-        //     'slug' => 'semeru',
-        //     'fakta' => 'Have a beautiful lake',
+        //     'name' => 'Everest Mountain',
+        //     'slug' => 'everest-mountain',
         //     'review' => '4.9',
-        //     'harga' => '400',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Jawa Timur',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Prau',
-        //     'slug' => 'Prau',
-        //     'fakta' => 'Special natural scenery',
-        //     'review' => '4.5',
-        //     'harga' => '180',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Jawa Tengah',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Rinjani',
-        //     'slug' => 'rinjani',
-        //     'fakta' => 'One of the seven summits of Indonesia',
-        //     'review' => '4.6',
-        //     'harga' => '340',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Nusa Tenggara Barat',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Ijen',
-        //     'slug' => 'ijen',
-        //     'fakta' => 'Turquoise crater lake',
-        //     'review' => '4.8',
-        //     'harga' => '390',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Jawa Timur',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Kelimutu',
-        //     'slug' => 'kelimutu',
-        //     'fakta' => 'Has a lake of 3 different colors',
-        //     'review' => '4.5',
-        //     'harga' => '210',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Nusa Tenggara Timur',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Kerinci',
-        //     'slug' => 'kerinci',
-        //     'fakta' => 'The highest volcano in Southeast Asia',
-        //     'review' => '4.3',
-        //     'harga' => '190',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Sumatra Barat',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Gede',
-        //     'slug' => 'gede',
-        //     'fakta' => 'Savanna that is overgrown with Edelweiss flowers',
-        //     'review' => '4.4',
-        //     'harga' => '340',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Jawa Barat',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-
-
-        // CATEGORY TEMPLE (5)
-        // Destination::create([
-        //     'name' => 'Prambanan',
-        //     'slug' => 'prambanan',
-        //     'fakta' => 'Biggest hindu temple in Indonesia',
-        //     'review' => '4.4',
-        //     'harga' => '340',
-        //     'jam' => '05.00 - 22.00',
-        //     'lokasi' => 'Jawa Barat',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Borobudur',
-        //     'slug' => 'borobudur',
-        //     'fakta' => 'One of the world heritage sites by UNESCO',
-        //     'review' => '5.0',
-        //     'harga' => '460',
-        //     'jam' => '06.30 - 16.30',
-        //     'lokasi' => 'Jawa Tengah',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Tanah Lot',
-        //     'slug' => 'tanah-lot',
-        //     'fakta' => 'Hindu places of worship',
-        //     'review' => '4.8',
-        //     'harga' => '160',
-        //     'jam' => '06.00 - 19.00',
-        //     'lokasi' => 'Bali',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Ulun Danu Beratan',
-        //     'slug' => 'ulun-danu-beratan',
-        //     'fakta' => 'Very unique temple',
-        //     'review' => '4.9',
-        //     'harga' => '290',
-        //     'jam' => '07.00 - 19.00',
-        //     'lokasi' => 'Bali',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Garuda Wisnu Kencana',
-        //     'slug' => 'garuda-wisnu-kencana',
-        //     'fakta' => 'Tallest statue in the world',
-        //     'review' => '5.0',
         //     'harga' => '320',
-        //     'jam' => '09.00 - 20.00',
-        //     'lokasi' => 'Bali',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Nepal',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
-
-
-        // CATEGORY BEACH (13)
         // Destination::create([
-        //     'name' => 'Kelingking',
-        //     'slug' => 'kelingking',
-        //     'fakta' => 'Resembling a little finger',
+        //     'name' => 'Moena Mountain',
+        //     'slug' => 'moena-mountain',
         //     'review' => '4.9',
-        //     'harga' => '500',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Bali',
+        //     'harga' => '295',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Italy',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Diamond',
-        //     'slug' => 'diamond',
-        //     'fakta' => 'The cliff is sharp like a diamond',
-        //     'review' => '4.9',
-        //     'harga' => '460',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Bali',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Ora',
-        //     'slug' => 'ora',
-        //     'fakta' => 'Hidden paradise like Borocay beach in the Philippines and Bora-bora Beach in the Pacific Ocean',
-        //     'review' => '4.9',
-        //     'harga' => '270',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Maluku Tengah',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Pandawa',
-        //     'slug' => 'pandawa',
-        //     'fakta' => 'Has the nickname the Secret Beach',
-        //     'review' => '4.8',
-        //     'harga' => '160',
-        //     'jam' => '08.00 - 18.00',
-        //     'lokasi' => 'Bali',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Raja Ampat',
-        //     'slug' => 'raja-ampat',
-        //     'fakta' => 'Home to about 75% of the world's coral reefs',
-        //     'review' => '5.0',
-        //     'harga' => '360',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Papua Barat',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Pink',
-        //     'slug' => 'pink',
-        //     'fakta' => 'Along the Pink beach decorated with pink sand',
-        //     'review' => '4.8',
-        //     'harga' => '400',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Nusa Tenggara Timur',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Sawarna',
-        //     'slug' => 'sawarna',
-        //     'fakta' => 'Has 6 beaches with different panoramas',
+        //     'name' => 'Snowdonia Mountain',
+        //     'slug' => 'snowdonia-mountain',
         //     'review' => '4.7',
-        //     'harga' => '270',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Banten',
+        //     'harga' => '260',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Wales',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+
+
+        // CATEGORY WATERFALL
+        // Destination::create([
+        //     'name' => 'Havasu Falls',
+        //     'slug' => 'havasu-falls',
+        //     'review' => '5.0',
+        //     'harga' => '410',
+        //     'jam' => '6 pm - 6 am',
+        //     'lokasi' => 'United States',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Klayar',
-        //     'slug' => 'klayar',
-        //     'fakta' => 'Cliff view in the middle of the sea and natural fountain',
-        //     'review' => '4.5',
-        //     'harga' => '200',
-        //     'jam' => '06.00 - 18.00',
-        //     'lokasi' => 'Jawa Timur',
+        //     'name' => 'Multnomah Falls',
+        //     'slug' => 'multnomah-falls',
+        //     'review' => '4.8',
+        //     'harga' => '295',
+        //     'jam' => '6 pm - 6 am',
+        //     'lokasi' => 'United States',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Gili Trawangan',
-        //     'slug' => 'gili-trawangan',
-        //     'fakta' => 'Cliff view in the middle of the sea and natural fountain',
-        //     'review' => '4.4',
+        //     'name' => 'Seljalandsfoss Falls',
+        //     'slug' => 'seljalandsfoss-falls',
+        //     'review' => '5.0',
+        //     'harga' => '375',
+        //     'jam' => '6 pm - 6 am',
+        //     'lokasi' => 'Iceland',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+
+
+        // CATEGORY BEACH
+        // Destination::create([
+        //     'name' => 'Isla Saboga Beach',
+        //     'slug' => 'isla-saboga-beach',
+        //     'review' => '4.6',
+        //     'harga' => '205',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Panama',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Isle Of Pines Beach',
+        //     'slug' => 'isle-of-pines-beach',
+        //     'review' => '4.7',
         //     'harga' => '230',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Nusa Tenggara Barat',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'France',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Karimun Jawa',
-        //     'slug' => 'karimun-jawa',
-        //     'fakta' => 'Beach of a million charms',
-        //     'review' => '4.3',
-        //     'harga' => '200',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Jawa Tengah',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Belitung',
-        //     'slug' => 'belitung',
-        //     'fakta' => 'The richness of the beautiful sea with the color of white and unpolluted beach sand',
-        //     'review' => '4.6',
-        //     'harga' => '300',
-        //     'jam' => '00.00 - 24.00',
-        //     'lokasi' => 'Sumatra Timur',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Labuan Bajo',
-        //     'slug' => 'labuan-bajo',
-        //     'fakta' => 'Meet the Komodo dragon',
-        //     'review' => '4.9',
-        //     'harga' => '390',
-        //     'jam' => '08.00 - 22.00',
-        //     'lokasi' => 'Nusa Tenggara Timur',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-        // Destination::create([
-        //     'name' => 'Kuta',
-        //     'slug' => 'kuta',
-        //     'fakta' => 'Beaches in Indonesia that are recognized for their beauty by the world',
-        //     'review' => '4.8',
-        //     'harga' => '280',
-        //     'jam' => '06.00 - 18.00',
-        //     'lokasi' => 'Bali',
-        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
-        // ]);
-
-
-
-        // CATEGORY RICE TERRACE (7)
-        // Destination::create([
-        //     'name' => 'Jatiluwih',
-        //     'slug' => 'jatiluwih',
-        //     'fakta' => 'One of the world heritage sites ever crowned by UNESCO',
+        //     'name' => 'Kauai Beach',
+        //     'slug' => 'kauai-beach',
         //     'review' => '4.7',
-        //     'harga' => '50',
-        //     'jam' => '08.00 - 17.00',
-        //     'lokasi' => 'Bali',
+        //     'harga' => '245',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Hawai',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Tegallalang',
-        //     'slug' => 'tegallalang',
-        //     'fakta' => 'One of the tourist icons in Bali',
+        //     'name' => 'Lampuuk Beach',
+        //     'slug' => 'lampuuk-beach',
+        //     'review' => '4.8',
+        //     'harga' => '285',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Indonesia',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Maldives Beach',
+        //     'slug' => 'maldives-beach',
         //     'review' => '5.0',
-        //     'harga' => '80',
-        //     'jam' => '08.00 - 17.00',
-        //     'lokasi' => 'Bali',
+        //     'harga' => '505',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Maladewa',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Belimbing',
-        //     'slug' => 'belimbing',
-        //     'fakta' => 'Beautiful and cool charm that is not yet known by tourists',
-        //     'review' => '4.3',
-        //     'harga' => '36',
-        //     'jam' => '08.00 - 17.00',
-        //     'lokasi' => 'Bali',
+        //     'name' => 'Mcway Beach',
+        //     'slug' => 'mcway-beach',
+        //     'review' => '4.5',
+        //     'harga' => '100',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'United States',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Pupuan',
-        //     'slug' => 'pupuan',
-        //     'fakta' => 'Can see a very lush tropical forest and there is a waterfall that is so very beautiful',
+        //     'name' => 'Playa De La Misericordia Beach',
+        //     'slug' => 'playa-de-la-misericordia-beach',
         //     'review' => '4.6',
-        //     'harga' => '70',
-        //     'jam' => '08.00 - 17.00',
-        //     'lokasi' => 'Bali',
+        //     'harga' => '195',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Spain',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
 
         // Destination::create([
-        //     'name' => 'Sidemen',
-        //     'slug' => 'sidemen',
-        //     'fakta' => 'View with Mount Agung in the background',
-        //     'review' => '4.4',
-        //     'harga' => '45',
-        //     'jam' => '08.00 - 17.00',
-        //     'lokasi' => 'Bali',
+        //     'name' => 'Waialua Beach',
+        //     'slug' => 'waialua-beach',
+        //     'review' => '4.5',
+        //     'harga' => '150',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'United States',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+
+
+        // CATEGORY AURORA
+        // Destination::create([
+        //     'name' => 'Bodo Night',
+        //     'slug' => 'bodo-night',
+        //     'review' => '4.6',
+        //     'harga' => '200',
+        //     'jam' => '10 am - 5 pm',
+        //     'lokasi' => 'Norway',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Hella Night',
+        //     'slug' => 'hella-night',
+        //     'review' => '4.9',
+        //     'harga' => '270',
+        //     'jam' => '10 am - 5 pm',
+        //     'lokasi' => 'Iceland',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Tromso Night',
+        //     'slug' => 'tromso-night',
+        //     'review' => '4.5',
+        //     'harga' => '130',
+        //     'jam' => '10 am - 5 pm',
+        //     'lokasi' => 'Norway',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+
+
+        // CATEGORY GRAND CANYON
+        // Destination::create([
+        //     'name' => 'Colorado Springs Canyon',
+        //     'slug' => 'colorado-springs-canyon',
+        //     'review' => '5.0',
+        //     'harga' => '470',
+        //     'jam' => '8 pm - 5 am',
+        //     'lokasi' => 'United States',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Horseshoe Bend Canyon',
+        //     'slug' => 'horseshoe-bend-canyon',
+        //     'review' => '4.9',
+        //     'harga' => '400',
+        //     'jam' => '8 pm - 5 am',
+        //     'lokasi' => 'United States',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Stakkholtsgja Canyon',
+        //     'slug' => 'stakkholtsgja-canyon',
+        //     'review' => '5.0',
+        //     'harga' => '460',
+        //     'jam' => '8 pm - 5 am',
+        //     'lokasi' => 'Iceland',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Oljato- Monument Valley Canyon',
+        //     'slug' => 'oljato-monument-valley-canyon',
+        //     'review' => '4.9',
+        //     'harga' => '355',
+        //     'jam' => '8 pm - 5 am',
+        //     'lokasi' => 'United States',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+
+
+        // CATEGORY LAKE
+        // Destination::create([
+        //     'name' => 'Freibergsee Lake',
+        //     'slug' => 'freibergsee-lake',
+        //     'review' => '4.8',
+        //     'harga' => '320',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Germany',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Pragser Wildsee Lake',
+        //     'slug' => 'pragser-wildsee-lake',
+        //     'review' => '4.7',
+        //     'harga' => '275',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Italy',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+
+
+        // CATEGORY HOTEL & VILLA
+        // Destination::create([
+        //     'name' => 'Jempana Villa',
+        //     'slug' => 'jempana-villa',
+        //     'review' => '5.0',
+        //     'harga' => '525',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Indonesia',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Jumeirah Hotel',
+        //     'slug' => 'jumeirah-hotel',
+        //     'review' => '5.0',
+        //     'harga' => '600',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Dubai',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Samujana Villa',
+        //     'slug' => 'samujana-villa',
+        //     'review' => '4.9',
+        //     'harga' => '485',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Thailand',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Santorini Villa',
+        //     'slug' => 'santorini-villa',
+        //     'review' => '5.0',
+        //     'harga' => '625',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Yunani',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+
+
+        // CATEGORY HOTEL
+        // Destination::create([
+        //     'name' => 'Batu Caves',
+        //     'slug' => 'batu-caves',
+        //     'review' => '4.6',
+        //     'harga' => '170',
+        //     'jam' => '7 pm - 9 am',
+        //     'lokasi' => 'Malaysia',
+        //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
+        // ]);
+
+        // Destination::create([
+        //     'name' => 'Cappadocia',
+        //     'slug' => 'cappadocia',
+        //     'review' => '4.9',
+        //     'harga' => '320',
+        //     'jam' => '12 pm - 12 am',
+        //     'lokasi' => 'Turky',
         //     'deskripsi' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At duis molestie ut fermentum. Scelerisque molestie varius in mauris semper habitasse commodo sed. Amet porta blandit proin at tincidunt sit mattis. Lorem eget nec congue tristique lacus ornare nulla. Pellentesque turpis non malesuada sit lectus sed porttitor egestas. Sapien gravida amet velit et. Placerat aliquet tempus, felis donec volutpat. Sit molestie adipiscing diam cras mi vitae.</p>'
         // ]);
     }
