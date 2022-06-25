@@ -1,0 +1,505 @@
+@font-face {
+    font-family: 'outfit-regular';
+    src: url('../font/outfit/Outfit-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'outfit-medium';
+    src: url('../font/outfit/Outfit-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'outfit-semibold';
+    src: url('../font/outfit/Outfit-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'outfit-bold';
+    src: url('../font/outfit/Outfit-Bold.ttf') format('truetype');
+}
+
+:root {
+    --color-black: #212121 !important;
+    --color-black-opacity: #646464 !important;
+    --color-white: #f7f7f7 !important;
+    --color-orange: #EC9B3B !important;
+    --color-orange-opacity: #FBEBD8 !important;
+    --font-regular: 'outfit-regular', Arial, Helvetica, sans-serif !important;
+    --font-medium: 'outfit-medium', Arial, Helvetica, sans-serif !important;
+    --font-semibold: 'outfit-semibold', Arial, Helvetica, sans-serif !important;
+    --font-bold: 'outfit-bold', Arial, Helvetica, sans-serif !important;
+    --size-headline: 5rem !important;
+    --size-h1: 2rem !important;
+    --size-h2: 1.6rem !important;
+    --size-h3: 1.25rem !important;
+    --size-paragraph: 1rem !important;
+    --transition-attr: 0.3s;
+}
+
+
+/* BUNDLE */
+* {
+    font-family: var(--font-regular);
+    font-size: var(--size-paragraph);
+    color: var(--color-black);
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-reverse {
+    background-color: var(--color-orange-opacity) !important;
+}
+
+.highlight {
+    font-size: var(--size-h2);
+    color: var(--color-orange) !important;
+}
+
+.button {
+    padding: 8px 32px;
+    text-decoration: none;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    border: 0.7px solid var(--color-orange);
+    border-radius: 3px;
+    transition: var(--transition-attr);
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-orange);
+}
+
+.button.reverse {
+    background-color: transparent;
+    border: 0.7px solid var(--color-orange);
+    color: var(--color-orange);
+}
+
+.button.reverse:hover {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+
+.sub-title {
+    font-size: var(--size-h3);
+    color: var(--color-orange);
+}
+
+.title {
+    font-size: var(--size-h1);
+    color: var(--color-black) !important;
+    font-family: var(--font-medium);
+}
+
+div.highlight {
+    font-family: var(--font-medium) !important;
+    font-size: var(--size-title);
+}
+
+p {
+    font-size: var(--size-paragraph);
+    color: var(--color-black-opacity);
+}
+
+
+/* NAVBAR */
+nav.navbar {
+    /* background-color: transparent; */
+    background-color: var(--color-black) !important;
+}
+
+.navbar-brand span{
+    color: var(--color-white);
+    font-size: var(--size-h2);
+}
+
+.navbar-brand span .highlight {
+    color: var(--color-orange);
+}
+
+.nav-item:hover > .nav-link {
+    opacity: 1;
+    color: var(--color-white);
+    transition: var(--transition-attr);
+}
+
+.nav-link {
+    color: var(--color-white);
+    opacity: 0.6;
+}
+
+
+/* HOME */
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.home.mobile-view {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/home-hero-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+    top: 50% !important;
+}
+
+.carousel-caption h1 {
+    font-size: var(--size-headline);
+    color: var(--color-white);
+    font-family: var(--font-semibold);
+}
+
+.carousel-caption p {
+    font-size: var(--size-h3);
+    color: var(--color-orange);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    left: 6%;
+    bottom: auto !important;
+    width: auto;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    background-color: rgba(255,255,255,0.3);
+}
+
+.carousel-control-next {
+    left: auto;
+    right: 6%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 80%;
+}
+
+
+/* FEATURED */
+.card-featured {
+    background-color: var(--color-white);
+}
+
+.card-featured i {
+    font-size: 3rem;
+    color: var(--color-orange);
+}
+
+.card-featured .title {
+    font-size: var(--size-h3);
+    font-family: var(--font-medium);
+    color: var(--color-black);
+}
+
+
+/* POPULAR */
+.popular .card-destination .card-description .name {
+    font-size: var(--size-h2);
+}
+
+.popular .card-destination .card-description .review {
+    font-size: var(--size-h3);
+    font-family: var(--font-medium);
+}
+
+.popular .card-destination .card-description .review i {
+    color: var(--color-orange);
+    font-size: 1.2rem;
+}
+
+.popular .card-destination .card-description .price {
+    font-size: var(--size-h1);
+    font-family: var(--font-bold);
+}
+
+
+/* TESTIMONI */
+.testimoni .card-testimoni {
+    background-color: var(--color-white);
+}
+
+.testimoni .card-testimoni .img-testimoni {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.testimoni .card-testimoni .comment .name {
+    font-family: var(--font-medium);
+}
+
+
+/* DESTINATION */
+/* SEARCHING */
+.searching .button:hover > i.fa-magnifying-glass {
+    color: var(--color-white) !important;
+}
+
+
+/* CATEGORIES */
+.categories .card-category {
+    border-bottom: 0.7px solid rgba(0,0,0,0.3);
+}
+
+.categories .list-category {
+    list-style: none;
+}
+
+.categories .item {
+    transition: var(--transition-attr);
+}
+
+.categories .item:hover > li {
+    color: var(--color-black);
+}
+
+.categories .list-category li {
+    font-size: 0.9rem !important;
+    color: var(--color-black-opacity);
+}
+
+.categories .result {
+    font-size: 0.9rem;
+    color: var(--color-black-opacity);
+}
+
+
+/* DESTINATION */
+.card-destination {
+    border: 1.3px solid rgba(0,0,0,0.2);
+}
+
+div.destination .name {
+    font-size: var(--size-h2) !important;
+    font-family: var(--font-medium) !important;
+    color: var(--color-black) !important;
+}
+
+div.destination .review i,
+div.destination .location i {
+    color: var(--color-orange) !important;
+}
+
+div.destination .review {
+    font-size: var(--size-h3) !important;
+    font-family: var(--font-semibold) !important;
+}
+
+div.destination .location {
+    font-size: var(--size-paragraph) !important;
+    color: var(--color-black-opacity) !important;
+}
+
+div.destination .price {
+    font-size: var(--size-h1) !important;
+    color: var(--color-black) !important;
+    font-family: var(--font-bold) !important;
+}
+
+div.destination .price .caption {
+    color: var(--color-black-opacity) !important;
+}
+
+
+/* FOOTER */
+footer {
+    margin-top: 130px !important;
+    padding: 60px 0;
+    background-color: var(--color-black);
+    color: var(--color-white) !important;
+}
+
+.brand h3,
+.brand h3 .highlight {
+    font-family: var(--font-semibold);
+}
+
+.brand h3,
+.brand p {
+    color: var(--color-white) !important;
+}
+
+.brand .copyright small {
+    color: var(--color-black-opacity) !important;
+}
+
+.links h3 {
+    color: var(--color-white);
+    font-family: var(--font-medium);
+    font-size: var(--size-h2);
+}
+
+.links .link-items {
+    list-style: none;
+}
+
+.links .link-items .item {
+    transition: var(--transition-attr);
+    font-family: var(--font-regular) !important;
+}
+
+.links .link-items .item:hover {
+    opacity: 0.8;
+}
+
+.links .link-items li {
+    color: var(--color-white);
+}
+
+
+/* DETAIL */
+/* DESCRIPTION */
+.description .name {
+    font-size: var(--size-h1);
+    color: var(--color-black);
+    font-family: var(--font-medium);
+}
+
+.description h6 {
+    color: var(--color-black);
+    font-size: var(--size-h3);
+}
+
+.description h6 i {
+    font-size: 1.3rem;
+    color: var(--color-orange) !important;
+}
+
+.description .location .time {
+    color: var(--color-black-opacity);
+}
+
+.description .title {
+    border-left: 4px solid var(--color-orange);
+    border-radius: 3px;
+}
+
+.description h3 {
+    font-size: var(--size-h3) !important;
+    font-family: var(--font-medium);
+}
+
+.description .wrap .review {
+    font-size: var(--size-h3) !important;
+}
+
+.description .wrap .review i {
+    font-size: 1.3rem;
+    color: var(--color-orange);
+}
+
+.description .card-order {
+    border: 1px solid rgba(0,0,0,0.26);
+}
+
+.description .card-order .caption,
+.description .card-order .transaction {
+    font-size: var(--size-h3);
+}
+
+.description .card-order .caption {
+    font-family: var(--font-medium);
+    color: var(--color-black-opacity);
+}
+
+.description .card-order .transaction {
+    color: var(--color-orange);
+}
+
+.description .card-order .price {
+    font-size: var(--size-h1);
+    font-family: var(--font-medium);
+    color: var(--color-orange);
+}
+
+.description .card-destination .name {
+    font-size: var(--size-h2);
+    color: var(--color-black);
+    font-family: var(--font-medium);
+}
+
+.description .card-destination .review,
+.description .card-destination .review i {
+    font-size: var(--size-h3);
+}
+
+.description .card-destination .review {
+    font-family: var(--font-medium);
+}
+
+.description .card-destination .review i {
+    color: var(--color-orange);
+}
+
+.description .card-destination h3,
+.description .card-destination h3 i {
+    font-size: var(--size-h3);
+}
+
+.description .card-destination h3 i {
+    color: var(--color-orange);
+}
+
+.description .card-description .price {
+    font-family: var(--font-medium);
+}
+
+.description .card-description .price small {
+    font-size: var(--size-paragraph);
+    color: var(--color-black-opacity);
+}
+
+
+
+
+@media (max-width: 769px) {
+    nav.navbar {
+        background-color: var(--color-black);
+    }
+
+    .carousel-caption h1 {
+        font-size: 4.3rem;
+    }
+
+    .categories select {
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 3.3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .categories select {
+        width: 50%;
+    }
+}
